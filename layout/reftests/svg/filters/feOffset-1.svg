@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-
-<filter id="f1" filterUnits="objectBoundingBox" primitiveUnits="objectBoundingBox" 
-         x="0" y="0" width="1" height="1">
-  <feOffset x="10%" y="10%" width="80%" height="80%" dx="0.15" dy="0.25"/>
-</filter>
-<g filter="url(#f1)">
-  <rect x="0" y="0" width="100" height="100" fill="#00ff00"/>
-</g>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><filter id="f1" width="1" height="1" x="0" y="0" filterUnits="objectBoundingBox" primitiveUnits="objectBoundingBox"><feOffset width="80%" height="80%" x="10%" y="10%" dx=".15" dy=".25"/></filter><g filter="url(#f1)"><rect width="100" height="100" x="0" y="0" fill="#0f0"/></g></svg>

@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="200px" height="200px"
-     class="reftest-wait"
-     onload="go()">
-  <style>
-    rect { stroke: blue; stroke-width: 10px; }
-  </style>
-  <script xlink:href="../smil-grid.js" type="text/javascript"/>
-  <script xlink:href="../smil-util.js" type="text/javascript"/>
-  <script>
-    function go() {
-      var animAttrHash = { "attributeName" : "stroke-width",
-                           "by"            : "10%" };
-      testAnimatedRectGrid("animate", [animAttrHash]);
-    }
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" class="reftest-wait" onload="go()"><style>rect{stroke:#00f;stroke-width:10px}</style><script type="text/javascript" xlink:href="../smil-grid.js"/><script type="text/javascript" xlink:href="../smil-util.js"/><script>function go() { var animAttrHash = { &quot;attributeName&quot; : &quot;stroke-width&quot;, &quot;by&quot; : &quot;10%&quot; }; testAnimatedRectGrid(&quot;animate&quot;, [animAttrHash]); }</script></svg>

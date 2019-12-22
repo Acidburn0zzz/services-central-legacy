@@ -1,7 +1,4 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait">
-<script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"><script><![CDATA[
 
 function boom()
 {
@@ -19,7 +16,4 @@ function boom()
 
 window.addEventListener("load", function() { setTimeout(boom, 200); }, false);
 
-]]>
-</script>
-<animate id="a"/>
-</svg>
+]]></script><animate id="a"/></svg>

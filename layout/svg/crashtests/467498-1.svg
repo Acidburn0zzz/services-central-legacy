@@ -1,12 +1,1 @@
-<!--
-     Any copyright is dedicated to the Public Domain.
-     http://creativecommons.org/licenses/publicdomain/
--->
-<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <use id="a" width="100" height="100" xlink:href="#b"/>
-  <use id="b" x="100" y="100" width="100" height="100" xlink:href="#a"/>
-  <script>
-    document.getElementById("a").setAttribute("width", "200");
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%"><use id="a" width="100" height="100" xlink:href="#b"/><use id="b" width="100" height="100" x="100" y="100" xlink:href="#a"/><script>document.getElementById(&quot;a&quot;).setAttribute(&quot;width&quot;, &quot;200&quot;);</script></svg>

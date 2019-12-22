@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <marker id="m">
-    <foreignObject/>
-  </marker>
-  <line marker-end="url(#m)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><line marker-end="url(#m)"/></svg>

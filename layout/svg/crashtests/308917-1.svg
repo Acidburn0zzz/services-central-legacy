@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<svg version="1.1" baseProfile="basic" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 480 360" class="reftest-wait" onload="first();">
-
-<script><![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" baseProfile="basic" class="reftest-wait" onload="first();" version="1.1" viewBox="0 0 480 360"><script><![CDATA[
 
 function first()
 {
@@ -16,20 +12,4 @@ function second()
   document.documentElement.removeAttribute("class");
 }
 
-]]></script>
-
-
-		<pattern patternUnits="userSpaceOnUse" id="pat1" x="10" y="10" width="20" height="20">
-			<rect x="5" y="5" width="10" height="10" fill="red" />
-			<rect x="10" y="10" width="10" height="10" fill="green" />
-		</pattern>
-		<rect x="25" y="10" width="430" height="60" stroke="black" fill="url(#pat1)" />
-
-		<pattern patternUnits="userSpaceOnUse" id="pat4" x="0" y="0" width="20" height="10">
-			<rect x="0" y="0" width="10" height="10" fill="red" />
-			<rect x="10" y="0" width="10" height="10" fill="blue" />
-		</pattern>
-		<text font-family="Arial" font-size="40" fill="none" stroke="url(#pat4)" stroke-width="2"  x="25" y="275" id="z">Pattern on stroke</text>
-
-</svg>
-
+]]></script><pattern id="pat1" width="20" height="20" x="10" y="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" x="5" y="5" fill="red"/><rect width="10" height="10" x="10" y="10" fill="green"/></pattern><rect width="430" height="60" x="25" y="10" fill="url(#pat1)" stroke="#000"/><pattern id="pat4" width="20" height="10" x="0" y="0" patternUnits="userSpaceOnUse"><rect width="10" height="10" x="0" y="0" fill="red"/><rect width="10" height="10" x="10" y="0" fill="#00f"/></pattern><text id="z" x="25" y="275" fill="none" stroke="url(#pat4)" stroke-width="2" font-family="Arial" font-size="40">Pattern on stroke</text></svg>

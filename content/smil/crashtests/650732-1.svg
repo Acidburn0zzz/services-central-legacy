@@ -1,14 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait">
-  <rect fill="green" width="100" height="100">
-    <set id="a" attributeName="fill" to="blue"
-      begin="6s" end="986s"/>
-    <set id="b" attributeName="fill" to="orange"
-      begin="a.begin+69.3s;b.begin+700s" dur="700s" end="a.end"/>
-    <set id="c" attributeName="fill" to="yellow"
-      begin="0s;b.begin+700s"/>
-  </rect>
-  <script type="text/javascript">
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"><rect width="100" height="100" fill="green"><set id="a" attributeName="fill" begin="6s" end="986s" to="blue"/><set id="b" attributeName="fill" begin="a.begin+69.3s;b.begin+700s" dur="700s" end="a.end" to="orange"/><set id="c" attributeName="fill" begin="0s;b.begin+700s" to="yellow"/></rect><script type="text/javascript"><![CDATA[
 const max_attempts = 100;
 var   attempts = 0;
 function attemptCrash()
@@ -41,6 +31,4 @@ function remove()
   elem = null;
 }
 window.addEventListener("load", attemptCrash, false);
-]]>
- </script>
-</svg>
+]]></script></svg>

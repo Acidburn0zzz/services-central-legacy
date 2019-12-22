@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <script xlink:href="util.js" type="text/javascript"/>
-  <script>
-    // This image has no preserveAspectRatio attribute, so in the bonus
-    // image element, we'll actually apply the value that comes along with
-    // "defer" ("xMinYMin slice").
-    var grid = generateImageGrid("blueRect10x10-viewBox.svg", 40, 20,
-                                 "defer xMinYMin slice");
-    grid.setAttribute("transform", "translate(10, 10)");
-    document.documentElement.appendChild(grid);
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><script type="text/javascript" xlink:href="util.js"/><script>// This image has no preserveAspectRatio attribute, so in the bonus // image element, we&apos;ll actually apply the value that comes along with // &quot;defer&quot; (&quot;xMinYMin slice&quot;). var grid = generateImageGrid(&quot;blueRect10x10-viewBox.svg&quot;, 40, 20, &quot;defer xMinYMin slice&quot;); grid.setAttribute(&quot;transform&quot;, &quot;translate(10, 10)&quot;); document.documentElement.appendChild(grid);</script></svg>

@@ -1,7 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="reftest-wait">
-
-<script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="reftest-wait"><script><![CDATA[
 
 window.addEventListener("load", function () {
     document.documentElement.appendChild(document.getElementById("a"));
@@ -11,16 +8,4 @@ window.addEventListener("load", function () {
     }, 0);
 }, false);
 
-]]>
-</script>
-
-<g id="a">
-  <path id="x"/>
-  <text>
-    <textPath xlink:href="#m1">Text</textPath>
-    <textPath xlink:href="#m1">Text</textPath>
-
-  </text>
-</g>
-
-</svg>
+]]></script><g id="a"><path id="x"/><text><textPath xlink:href="#m1">Text</textPath> <textPath xlink:href="#m1">Text</textPath></text></g></svg>

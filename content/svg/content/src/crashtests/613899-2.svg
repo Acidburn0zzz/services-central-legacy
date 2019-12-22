@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <set/>
-  <filter id="disp">
-    <feImage xlink:href="#THIS_SVG_FILE_AS_AN_IMAGE"/>
-  </filter>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><set/><filter id="disp"><feImage xlink:href="#THIS_SVG_FILE_AS_AN_IMAGE"/></filter></svg>

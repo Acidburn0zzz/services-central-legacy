@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 1800 1000" width="1800px" height="1000px">
-  <polygon fill="black" points="100,100 100,800 1700,800 1700,100 1500,100 1500,600 300,600 300,100" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" version="1.1" viewbox="0 0 1800 1000"><polygon fill="#000" points="100 100 100 800 1700 800 1700 100 1500 100 1500 600 300 600 300 100"/></svg>

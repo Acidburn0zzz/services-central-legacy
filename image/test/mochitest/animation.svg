@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-	<image id="anim" xlink:href="animated-gif.gif" width="40" height="40"/>
-</svg>
-
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image id="anim" width="40" height="40" xlink:href="animated-gif.gif"/></svg>

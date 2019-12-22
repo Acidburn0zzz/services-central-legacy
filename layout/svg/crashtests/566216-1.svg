@@ -1,7 +1,4 @@
-<?xml version="1.0"?>
-
-<svg xmlns="http://www.w3.org/2000/svg"><animate id="y"/><script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg"><animate id="y"/><script><![CDATA[
 
 function boom()
 {
@@ -12,8 +9,4 @@ function boom()
 
 window.addEventListener("load", boom, false);
 
-]]>
-</script>
-</svg>
-
-
+]]></script></svg>

@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
-
-<filter id="f1" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
-  <feFlood flood-color="#ff0000" flood-opacity="0.5" result="flood" x="0" y="0" width="100" height="100"/>
-  <feComposite style="color-interpolation-filters:sRGB"
-   in="flood" operator="over" in2="SourceGraphic"/>
-</filter>
-<g filter="url(#f1)">
-  <rect x="0" y="0" width="50" height="100" fill="#00ff00"/>
-  <rect x="50" y="0" width="50" height="100" fill="#00ff00" opacity="0"/>
-</g>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500"><filter id="f1" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse"><feFlood width="100" height="100" x="0" y="0" flood-color="red" flood-opacity=".5" result="flood"/><feComposite color-interpolation-filters="sRGB" in="flood" in2="SourceGraphic" operator="over"/></filter><g filter="url(#f1)"><rect width="50" height="100" x="0" y="0" fill="#0f0"/><rect width="50" height="100" x="50" y="0" fill="#0f0" opacity="0"/></g></svg>

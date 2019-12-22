@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"><rect><set to="k" type="s" attributeName="transform"/></rect></svg>
+<svg xmlns="http://www.w3.org/2000/svg"><rect><set attributeName="transform" to="k" type="s"/></rect></svg>

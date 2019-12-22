@@ -1,8 +1,4 @@
-<?xml version="1.0"?>
-
-<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait">
-<script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"><script><![CDATA[
 
 window.addEventListener("load", boom, false);
 
@@ -17,10 +13,4 @@ function bang()
   document.documentElement.removeAttribute("class");
 }
 
-]]>
-</script>
-
-<animate id="b"/>
-<animate end="b.end"/>
-
-</svg>
+]]></script><animate id="b"/><animate end="b.end"/></svg>
