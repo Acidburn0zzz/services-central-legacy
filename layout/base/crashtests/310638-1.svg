@@ -28,11 +28,4 @@ function removeNode(q1) { q1.parentNode.removeChild(q1); }
 setTimeout(init, 30);
 
 
-]]></script>
-
-<div xmlns='http://www.w3.org/1999/xhtml' id="div1">
-
-<div id="div2">bar</div>
-</div>
-
-</svg>
+]]></script><div xmlns="http://www.w3.org/1999/xhtml" id="div1"><div id="div2">bar</div></div></svg>

@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-	<defs>
-		<filter id="convoluted_lime" x="0%" y="0%" width="100%" height="100%">
-			<feFlood flood-color="lime"/>
-			<feConvolveMatrix order="3" kernelMatrix="
-				0 0 0
-				0 1 0
-				0 0 0"/>
-		</filter>
-	</defs>
-	<rect x="30" y="30" width="97" height="60" filter="url(#convoluted_lime)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><defs><filter id="convoluted_lime" width="100%" height="100%" x="0%" y="0%"><feFlood flood-color="#0f0"/><feConvolveMatrix kernelMatrix="0 0 0 0 1 0 0 0 0" order="3"/></filter></defs><rect width="97" height="60" x="30" y="30" filter="url(#convoluted_lime)"/></svg>

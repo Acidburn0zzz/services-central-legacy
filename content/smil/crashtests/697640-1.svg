@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <animate id="b" end="b.end" dur="3s" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><animate id="b" dur="3s" end="b.end"/></svg>

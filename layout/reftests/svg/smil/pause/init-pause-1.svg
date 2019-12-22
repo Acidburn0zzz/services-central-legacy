@@ -1,15 +1,4 @@
-<!--
-
-  Tests various aspects of initial pause behaviour including getCurrentTime and
-  setCurrentTime. In particular, we test the behaviour described in
-
-http://www.w3.org/2003/01/REC-SVG11-20030114-errata#getCurrentTime_setCurrentTime_undefined_before_document_timeline_begin
-
- -->
-<svg xmlns="http://www.w3.org/2000/svg"
-     class="reftest-wait"
-     onload="unpause()">
-  <script type="text/ecmascript"><![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait" onload="unpause()"><script type="text/ecmascript"><![CDATA[
     // If we try to update the DOM as we go we very occasionally run into timing
     // issues that produce false positives for this test. So instead we just set
     // this flag and update the DOM at the end of the test.
@@ -36,14 +25,4 @@ http://www.w3.org/2003/01/REC-SVG11-20030114-errata#getCurrentTime_setCurrentTim
 
       document.documentElement.removeAttribute("class");
     }
-  ]]></script>
-  <circle cx="50" cy="50" r="30" fill="blue">
-    <animate attributeName="cx" attributeType="XML"
-      to="250" begin="1s" dur="2s" fill="freeze"/>
-  </circle>
-  <!-- Tick mark to show where the circle should be -->
-  <path d="M150 40v20" stroke="green"/>
-  <!-- Marker to show if something is wrong in the DOM -->
-  <text fill="red" stroke="none" font-size="60" x="125" y="70"
-    font-family="sans-serif" id="wrong" visibility="hidden">X</text>
-</svg>
+  ]]></script><circle cx="50" cy="50" r="30" fill="#00f"><animate fill="freeze" attributeName="cx" attributeType="XML" begin="1s" dur="2s" to="250"/></circle><path stroke="green" d="M150 40v20"/><text id="wrong" x="125" y="70" fill="red" stroke="none" font-family="sans-serif" font-size="60" visibility="hidden">X</text></svg>

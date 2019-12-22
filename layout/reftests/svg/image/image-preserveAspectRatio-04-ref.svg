@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <script xlink:href="util.js" type="text/javascript"/>
-  <script>
-    // My corresponding testcase uses an image with no preserveAspectRatio on
-    // its root node.  So, the testcase's final bonus "defer" grid-entry will
-    // fall back on the preserveAspectRatio value that comes along with
-    // "defer" (which is "xMinYMin slice" in this case).
-    var grid = generateSymbolGrid("blueRect10x10.svg#root", 40, 20,
-                                  "xMinYMin slice");
-    grid.setAttribute("transform", "translate(10, 10)");
-    document.documentElement.appendChild(grid);
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><script type="text/javascript" xlink:href="util.js"/><script>// My corresponding testcase uses an image with no preserveAspectRatio on // its root node. So, the testcase&apos;s final bonus &quot;defer&quot; grid-entry will // fall back on the preserveAspectRatio value that comes along with // &quot;defer&quot; (which is &quot;xMinYMin slice&quot; in this case). var grid = generateSymbolGrid(&quot;blueRect10x10.svg#root&quot;, 40, 20, &quot;xMinYMin slice&quot;); grid.setAttribute(&quot;transform&quot;, &quot;translate(10, 10)&quot;); document.documentElement.appendChild(grid);</script></svg>

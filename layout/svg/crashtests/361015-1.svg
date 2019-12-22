@@ -1,10 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" 
-     xmlns:html="http://www.w3.org/1999/xhtml" 
-     class="reftest-wait"
-     onload="setTimeout(boom, 30)">
-
-<html:script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" class="reftest-wait" onload="setTimeout(boom, 30)"><html:script><![CDATA[
 
 function boom()
 {
@@ -15,19 +9,4 @@ function boom()
   document.documentElement.removeAttribute("class");
 }
 
-]]>
-</html:script>
-
-
-  <g id="g" transform="translate(500,0)">
-    <text x="25" y="85">Foo</text>
-  </g>
-
-
-  <linearGradient id="grad" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="blue" offset="0.2"/>
-    <stop stop-color="lime" offset="0.4"/>
-  </linearGradient>
-
-
-</svg>
+]]></html:script><g id="g"><text x="25" y="85" transform="translate(500,0)">Foo</text></g><linearGradient id="grad" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox"><stop offset=".2" stop-color="#00f"/><stop offset=".4" stop-color="#0f0"/></linearGradient></svg>

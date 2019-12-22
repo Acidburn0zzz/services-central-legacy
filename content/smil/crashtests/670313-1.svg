@@ -1,8 +1,4 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     class="reftest-wait">
-<script type="text/javascript">
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"><script type="text/javascript"><![CDATA[
 
 function boom()
 {
@@ -14,7 +10,4 @@ function boom()
 
 window.addEventListener("load", boom, false);
 
-]]>
-</script>
-<animate id="x" begin="a" />
-</svg>
+]]></script><animate id="x" begin="a"/></svg>

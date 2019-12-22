@@ -1,9 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" 
-     onload="setTimeout(boom, 30);"
-     class="reftest-wait">
-     
-<script style="display: none" type="text/javascript">
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait" onload="setTimeout(boom, 30);"><script display="none" type="text/javascript"><![CDATA[
 
 function boom()
 {
@@ -19,13 +14,4 @@ function boom()
   document.documentElement.removeAttribute("class");
 }
 
-]]>
-</script>
-
-		<radialGradient id="grad" gradientUnits="userSpaceOnUse" cx="240" cy="210" r="220" fx="240" fy="210">
-			<stop stop-color="yellow" offset="0"/>
-			<stop stop-color="green"  offset="1"/>
-		</radialGradient>
-		<rect x="20" y="150" width="440" height="80" fill="url(#grad)" stroke-width="40"/>
-
-</svg>
+]]></script><radialGradient id="grad" cx="240" cy="210" r="220" fx="240" fy="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff0"/><stop offset="1" stop-color="green"/></radialGradient><rect width="440" height="80" x="20" y="150" fill="url(#grad)" stroke-width="40"/></svg>

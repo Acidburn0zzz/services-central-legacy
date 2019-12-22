@@ -1,3 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <animate repeatCount="2" dur="1s" accumulate="1" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><animate accumulate="1" dur="1s" repeatCount="2"/></svg>

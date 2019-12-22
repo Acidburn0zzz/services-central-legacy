@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-<filter id="f1" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse" 
-         x="10" y="10" width="700" height="700">
-  <feImage xlink:href="mozilla-banner.gif" x="10" y="10" width="600" height="58"
-   style="color-interpolation-filters:sRGB"/>
-</filter>
-<g filter="url(#f1)">
-</g>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><filter id="f1" width="700" height="700" x="10" y="10" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse"><feImage width="600" height="58" x="10" y="10" color-interpolation-filters="sRGB" xlink:href="mozilla-banner.gif"/></filter></svg>

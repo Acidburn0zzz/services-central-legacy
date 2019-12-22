@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" onload="boom();">
-     
-<script type="text/javascript">
-
-function boom()
-{
-  var path = document.createElementNS("http://www.w3.org/2000/svg", "path"); 
-  path.getPathSegAtLength(1); 
-}
-
-</script>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" onload="boom();"><script type="text/javascript">function boom() { var path = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;path&quot;); path.getPathSegAtLength(1); }</script></svg>

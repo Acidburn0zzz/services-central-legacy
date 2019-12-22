@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     class="reftest-wait"
-     onload="setTimeAndSnapshot(2, true)">
-  <script xlink:href="../smil-util.js" type="text/javascript"/>
-  <!--
-    Test of animation sandwich priority based on syncbase dependencies.
-
-    A longer chain.
-   -->
-  <rect width="100" height="100" fill="orange">
-    <set attributeName="fill" to="blue"  begin="a.begin-0.5s" id="b"/>
-    <set attributeName="fill" to="green" begin="d.begin"/>
-    <set attributeName="fill" to="black" begin="c.begin-0.5s" id="d"/>
-    <set attributeName="x"    to="0"     begin="b.begin+1s"   id="c"/>
-    <set attributeName="fill" to="red"   begin="1s"           id="a"/>
-  </rect>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="reftest-wait" onload="setTimeAndSnapshot(2, true)"><script type="text/javascript" xlink:href="../smil-util.js"/><rect width="100" height="100" fill="orange"><set id="b" attributeName="fill" begin="a.begin-0.5s" to="blue"/><set attributeName="fill" begin="d.begin" to="green"/><set id="d" attributeName="fill" begin="c.begin-0.5s" to="black"/><set id="c" attributeName="x" begin="b.begin+1s" to="0"/><set id="a" attributeName="fill" begin="1s" to="red"/></rect></svg>

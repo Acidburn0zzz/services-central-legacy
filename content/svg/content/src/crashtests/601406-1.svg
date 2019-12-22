@@ -1,12 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-<script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg"><script><![CDATA[
 function boom() { document.getElementById("a").getBBox(); }
 window.addEventListener("load", boom, false);
-]]>
-</script>
-
-<a id="a"/>
-
-</svg>
-
+]]></script></svg>

@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <use xlink:href="blueRect10x10.svg#root"
-       transform="translate(60, 80)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use transform="translate(60, 80)" xlink:href="blueRect10x10.svg#root"/></svg>

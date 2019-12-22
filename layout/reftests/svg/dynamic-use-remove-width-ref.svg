@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<!-- this is a test for https://bugzilla.mozilla.org/show_bug.cgi?id=521682 -->
-
-  <defs>
-    <svg id="d">
-      <rect height="50%" width="100%" fill="blue" />
-    </svg>
-  </defs>
-
-  <use id="u" xlink:href="#d" height="100%" />
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><svg id="d"><rect width="100%" height="50%" fill="#00f"/></svg></defs><use id="u" height="100%" xlink:href="#d"/></svg>

@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
-
-<rect x="0" y="0" width="40%" height="100%" fill="#00ff00"/>
-<rect x="40%" y="0" width="60%" height="100%" fill="#0000ff"/>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500"><rect width="40%" height="100%" x="0" y="0" fill="#0f0"/><rect width="60%" height="100%" x="40%" y="0" fill="#00f"/></svg>

@@ -1,16 +1,1 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-     class="reftest-wait"
-     onload="go()">
-  <script>
-    function go() {
-      // setCurrentTime to force a sample
-      document.documentElement.setCurrentTime(2);
-      document.documentElement.removeAttribute("class");
-    }
-  </script>
-  <rect fill="teal" x="50" y="50" width="20" height="20">
-    <animateTransform attributeName="transform" type="rotate" by="30"
-                      calcMode="paced" dur="4s"/>
-  </rect>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait" onload="go()"><script>function go() { // setCurrentTime to force a sample document.documentElement.setCurrentTime(2); document.documentElement.removeAttribute(&quot;class&quot;); }</script><rect width="20" height="20" x="50" y="50" fill="teal"><animateTransform attributeName="transform" by="30" calcMode="paced" dur="4s" type="rotate"/></rect></svg>

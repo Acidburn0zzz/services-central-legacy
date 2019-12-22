@@ -1,11 +1,4 @@
-<?xml version="1.0"?>
-
-<svg xmlns="http://www.w3.org/2000/svg">
-
-<g id="a"><g id="b"/></g>
-
-<script type="text/javascript">
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg"><script type="text/javascript"><![CDATA[
 
 function j()
 {
@@ -22,6 +15,4 @@ function j()
 
 window.addEventListener("load", j, false);
 
-]]>
-</script>
-</svg>
+]]></script></svg>

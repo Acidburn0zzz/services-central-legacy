@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     class="reftest-wait"
-     onload="go()">
-  <style>
-    rect { fill: blue; stroke: black; }
-  </style>
-  <script xlink:href="../smil-grid.js" type="text/javascript"/>
-  <script xlink:href="../smil-util.js" type="text/javascript"/>
-  <script>
-    function go() {
-      var animAttrHash = { "attributeName" : "fill-opacity",
-                           "from"          : "1",
-                           "by"            : "-1" };
-      testAnimatedRectGrid("animate", [animAttrHash]);
-    }
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="reftest-wait" onload="go()"><style>rect{fill:#00f;stroke:#000}</style><script type="text/javascript" xlink:href="../smil-grid.js"/><script type="text/javascript" xlink:href="../smil-util.js"/><script>function go() { var animAttrHash = { &quot;attributeName&quot; : &quot;fill-opacity&quot;, &quot;from&quot; : &quot;1&quot;, &quot;by&quot; : &quot;-1&quot; }; testAnimatedRectGrid(&quot;animate&quot;, [animAttrHash]); }</script></svg>

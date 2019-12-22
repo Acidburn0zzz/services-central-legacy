@@ -1,16 +1,1 @@
-<?xml version="1.0"?>
-<svg width="10cm" height="5cm" viewBox="0 0 1000 500"
-     xmlns="http://www.w3.org/2000/svg"
-	 version="1.1">
-
-  <script>
-  function init()
-  {
-    document.getElementsByTagName("rect")[0].style.display = "-moz-inline-stack";
-  }
-  
-  window.addEventListener("load", init, false);
-  </script>
-  
-  <rect requiredFeatures="http://www.w3.org/TR/SVG11/feature#SVG-nonexistent-feature"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="10cm" height="5cm" version="1.1" viewBox="0 0 1000 500"><script>function init() { document.getElementsByTagName(&quot;rect&quot;)[0].style.display = &quot;-moz-inline-stack&quot;; } window.addEventListener(&quot;load&quot;, init, false);</script><rect requiredFeatures="http://www.w3.org/TR/SVG11/feature#SVG-nonexistent-feature"/></svg>

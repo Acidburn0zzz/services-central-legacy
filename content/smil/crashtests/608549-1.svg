@@ -1,7 +1,4 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait">
-<script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"><script><![CDATA[
 
 function boom()
 {
@@ -21,9 +18,4 @@ function boom()
 
 window.addEventListener("load", boom, false);
 
-]]>
-</script>
-
-<set id="set" attributeName="fill" to="green" begin="indefinite"/>
-
-</svg>
+]]></script><set id="set" attributeName="fill" begin="indefinite" to="green"/></svg>

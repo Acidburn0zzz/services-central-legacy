@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-
-<pattern id="pat" />
-
-<rect x="10" y="10" width="100" height="100" stroke="url(#pat)" fill="url(#pat)" />
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" x="10" y="10" fill="url(#pat)" stroke="url(#pat)"/></svg>

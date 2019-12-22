@@ -1,12 +1,4 @@
-<!--
-     Any copyright is dedicated to the Public Domain.
-     http://creativecommons.org/publicdomain/zero/1.0/
--->
-<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"
-  onload="startTest()">
-
-<script>
-<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait" onload="startTest()"><script><![CDATA[
 
 function startTest() {
   document.addEventListener("MozReftestInvalidate", boom, false);
@@ -20,21 +12,4 @@ function boom() {
   document.documentElement.removeAttribute("class");
 }
 
-]]>
-</script>
-
-  <rect width="100%" height="100%" fill="lime"/>
-	
-  <rect x="20" y="20" width="100" height="100" fill="red"/>
-	
-  <svg id="inner1" x="260" y="20" width="100" height="100">
-    <rect x="0" y="0" width="100" height="100" fill="lime"/>
-  </svg>
-
-  <rect x="20" y="140" width="100" height="100" fill="red"/>
-	
-  <svg id="inner2" x="20" y="140" width="1" height="100">
-    <rect x="0" y="0" width="100" height="100" fill="lime"/>
-  </svg>
-
-</svg>
+]]></script><rect width="100%" height="100%" fill="#0f0"/><rect width="100" height="100" x="20" y="20" fill="red"/><svg id="inner1" width="100" height="100" x="260" y="20"><rect width="100" height="100" x="0" y="0" fill="#0f0"/></svg><rect width="100" height="100" x="20" y="140" fill="red"/><svg id="inner2" width="1" height="100" x="20" y="140"><rect width="100" height="100" x="0" y="0" fill="#0f0"/></svg></svg>
